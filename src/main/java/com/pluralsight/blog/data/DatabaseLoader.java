@@ -26,8 +26,9 @@ public class DatabaseLoader implements ApplicationRunner {
 
 	@Autowired
 	public DatabaseLoader(PostRepository postRepository, AuthorRepository authorRepository) {
-		this.authorRepository = authorRepository;
+		
 		this.postRepository = postRepository;
+		this.authorRepository = authorRepository;
 	}
 
 	@Override

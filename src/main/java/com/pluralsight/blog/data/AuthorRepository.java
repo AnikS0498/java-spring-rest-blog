@@ -10,6 +10,6 @@ import java.util.List;
 @RepositoryRestResource(exported = false)
 public interface AuthorRepository extends JpaRepository<Author, Long> {
 
-	public List<Post> findByAuthor_LastName(String lastname);
+//	public List<Post> findByAuthor_LastName(String lastname);
 
 }
